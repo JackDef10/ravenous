@@ -2,9 +2,9 @@ import React from "react";
 import "./SearchBar.css";
 
 const sortByOptions = {
-    "BestMatch": "best_match",
-    "HighestRated": "rating",
-    "MostReviewed": "review_count"
+    "Best Match": "best_match",
+    "Highest Rated": "rating",
+    "Most Reviewed": "review_count"
  };
 
  class SearchBar extends React.Component {
@@ -17,7 +17,7 @@ const sortByOptions = {
      render() {
         return (
             <div className="SearchBar">
-            <div clasName="SearchBar-sort-options">
+            <div className="SearchBar-sort-options">
               <ul>
                 {this.renderSortByOptions()}
               </ul>
@@ -27,7 +27,7 @@ const sortByOptions = {
               <input placeholder="Where?" />
             </div>
             <div className="SearchBar-submit">
-              <a>Let's Go</a>
+              <a href="www.#.com">Let's Go</a>
             </div>
           </div>
          
